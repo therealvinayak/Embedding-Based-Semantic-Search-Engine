@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Data artifacts (large binary files — regenerable via pipeline)
+data/corpus_embeddings.npy
+data/processed_issues.parquet
+indexes/faiss_index.bin
+indexes/tfidf_engine.pkl
+
+# OS
+.DS_Store
+Thumbs.db

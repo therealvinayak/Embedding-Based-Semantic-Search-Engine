@@ -1,0 +1,14 @@
+# Phase 1: Data Preparation & TF-IDF Baseline
+datasets>=2.14.0        # HuggingFace datasets library for loading lewtun/github-issues
+pandas>=2.0.0           # DataFrame manipulation and exploration
+scikit-learn>=1.3.0     # TF-IDF vectorizer + cosine similarity
+beautifulsoup4>=4.12.0  # HTML tag stripping from issue bodies
+
+# Phase 2: Dense Embeddings
+sentence-transformers>=2.2.0  # Pre-trained transformer models for encoding
+
+# Phase 3: Vector Indexing
+faiss-cpu>=1.7.4        # Facebook AI Similarity Search (CPU version)
+
+# Phase 5: Application
+streamlit>=1.28.0       # Web UI for the search engine
